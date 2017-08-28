@@ -9,17 +9,11 @@ A basic asset creation pipeline - batteries included.
 
 [![temp](https://cloud.githubusercontent.com/assets/2152766/18875905/93263c42-84bf-11e6-8c3f-7e4045d9cd9e.png)](http://pyblish.com/pyblish-starter)
 
-**Install**
-
-```bash
-$ pip install pyblish-starter
-```
-
 **Usage**
 
 ```python
->>> from pyblish_starter import api, maya
->>> api.install(maya)
+>>> from pyblish_starter import install, maya
+>>> install(maya)
 ```
 
 - [Read more](http://pyblish.com/pyblish-starter)

@@ -17,10 +17,11 @@ self.menu = "pyblishStarter"
 def install():
     try:
         import pyblish_maya
-        assert pyblish_maya.is_setup()
-
-    except (ImportError, AssertionError):
+    except ImportError:
         _display_missing_dependencies()
+
+    if not pyblish_maya.is_setup():
+        pyblish_maya.setup()
 
     _install_menu()
     _register_formats()
