@@ -111,7 +111,10 @@ Welcome to pyblish-starter, a basic asset creation pipeline - batteries included
 Starter takes the form of a Python package with embedded plug-ins.
 
 ```bash
-$ pip install pyblish-starter
+$ pip install pyblish-starter --target .
+$ set PYTHONPATH=%cd%    # Windows
+$ export PYTHONPATH=$cd  # Linux
+$ maya
 ```
 
 [![PyPI version](https://badge.fury.io/py/pyblish-starter.svg)](https://pypi.python.org/pypi/pyblish-starter)
