@@ -26,6 +26,8 @@ from .pipeline import (
     register_host,
     register_format,
     register_plugins,
+    register_family,
+    register_data,
 
     deregister_plugins,
 
