@@ -707,4 +707,4 @@ pyblish-starter, as Pyblish itself, is an open source effort and contributions a
 
 For example, you could fork Starter, expand upon the graphical user interfaces and either make it your own or submit a pull-request to have it merge with the official project.
 
-For more information on this, contact [me](mailto:marcus@abstractfactory.io) and let's have a conversation!
+For more information on this, contact [me](mailto:me@mottosso.com) and let's have a conversation!
